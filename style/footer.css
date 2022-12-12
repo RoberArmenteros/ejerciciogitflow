@@ -1,0 +1,162 @@
+.footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+.footer-volver{
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 107px;
+  background-color: rgb(35, 47, 62);
+ 
+}
+.volver{
+  position:absolute;
+  color: white;
+  background-color: #37475A;
+  display: block;
+  width: 100%;
+  height: 49px;
+  cursor: pointer;
+  border: none;
+
+}
+.footer-middle{
+  position: relative;
+ 
+  width: 100%;
+  background-color: rgb(35, 47, 62);
+  height: 425.6px;
+
+
+}
+.flex-footer{
+  display: flex;
+  flex-direction: row;
+  height: 425.6px;
+  justify-content: center;
+  color:white;
+}
+.conocenos{
+  width: 112.717px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.texto-footer{
+  color: lightgray;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 13px;
+}
+.vacio{
+  width: 100px;
+}
+.dinero{
+  
+  font-size: 19px;
+  font-weight: bold;
+  width: 212.167px;
+}
+.metodo{
+  font-size: 19px;
+  font-weight: bold;
+  width: 215.067px;
+}
+.ayuda{
+  font-size: 19px;
+  font-weight: bold;
+  width: 160.05px;
+}
+.linea{
+  height: 20px;
+  background-color: rgb(35, 47, 62);
+  border:1px;
+  border-color: white;
+}
+.footer-paises{
+  background-color: rgb(35, 47, 62);
+}
+.footer-flex-paises{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.pais{
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-top:5px;
+  margin-bottom: 5px;
+
+}
+.footer-links{
+  background-color: rgb(19, 25, 33);
+  height: 156.533px;
+
+}
+.footer-links-flex{
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tittle-link{
+  position: absolute;
+  
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.parrafo-link{
+  color: lightgray;
+  font-size: 11px;
+}
+.footer-link-information{
+  width: 218.667px;
+  height: 45.9667px;
+}
+.footer-vacio{
+  width: 40px;
+  height: 45.9667px;
+
+}
+.espacio{
+  height: 15px;
+}
+.footer-cookies{
+  height: 76px;
+  background-color: rgb(19, 25, 33);
+
+}
+.flex-cookies{
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.cookies-text,
+.afiliados{
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+.footer-image{
+  height: 68px;
+  background-color: rgb(35, 47, 62);
+  text-align: center;
+
+}
+.logo-footer{
+  width: 76px;
+  height: 38px;
+
+
+}

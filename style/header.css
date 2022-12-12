@@ -142,6 +142,7 @@
   display: block;
   margin-top: 16px;
   z-index: 2;
+  position: relative;
 
 
 }
@@ -199,6 +200,7 @@
   color:black;
   z-index: 2;
   margin-left: -400px;
+  position: relative;
 
 
 

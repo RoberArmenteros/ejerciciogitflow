@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   text-align: center;
-  z-index: -1;
+  
 }
 .image-center{
   position: relative;
@@ -18,7 +18,6 @@
   left: 0;
   right: 0;
   text-align: center;
-  z-index: -1;
 }
 .pc,
 .atrapa,
@@ -63,6 +62,8 @@
   width: 360.867px;
   left: 40px;
   top: 200px;
+}
+.renovar:hover{
   cursor: pointer;
 }
 .probar{
@@ -74,7 +75,10 @@
   background-color: rgb(247, 202, 0);
   border-radius: 8px;
   border-color: rgb(247, 202, 0);
+}
+.probar:hover{
   cursor: pointer;
+
 }
 .probar-text{
   margin-top: 8px;

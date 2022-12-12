@@ -1,0 +1,273 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+  top:0px;
+  left: 0px;
+  right: 0px;
+}
+.header-top{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(19, 25, 33);
+
+}
+.header-left{
+  display: flex;
+
+}
+.header-center{
+  display: flex;
+  height: 40px;
+  padding-top: 12px;
+  margin-left: 5px;
+  padding-right: 12px;
+  
+}
+.logo{
+  padding-top: 5px;
+  height: 50px;
+  width: 130.317px;
+  cursor: pointer;
+  margin-left: 25px;
+
+}
+.localizacion{
+  padding-top: 0px;
+  margin-left: 5px;
+  position: relative;
+  cursor: pointer;
+
+}
+.icono_locacizacion{
+  position: absolute;
+  margin-top: 30px;
+  height: 15px;
+  width: 20px;
+}
+.datos{
+  padding-left: 20px;
+  width: 150px;
+  position: relative;
+}
+.remitente{
+  position: absolute;
+  color:rgb(167, 167, 167);
+  padding-top: 20px;
+  font-size: 14px;
+}
+.direccion{
+  position: absolute;
+  color:white;
+  padding-top: 18px;
+  font-weight: bold;
+}
+.departamento{
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.search-bar{
+  width: 850px;
+  border-right: none;
+}
+.search-button{
+  height: 40px;
+  width: 44px;
+  background-color: rgb(255, 191, 73);
+  border:none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+#search-icon{
+  fill: rgb(31, 31, 31);
+  background-color: rgb(255, 191, 73);
+  
+  border-left: none;
+  width: 35px;
+  height: 27px;
+}
+
+
+
+.header-right{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.idioma{
+  cursor: pointer;
+  position: absolute;
+}
+.idioma-button{
+  margin-top: 20px;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size:medium
+  
+}
+
+
+.desplegar-idioma{
+  width: 50px;
+  height: 50px;
+}
+.bandera{
+  width: 25px;
+  height: 18px; 
+}
+.formulario{
+  display: none;
+  background-color: lightgrey;
+  width: 150px;
+}
+.idioma:hover .formulario{
+  display: block;
+  margin-top: 16px;
+  z-index: 2;
+  
+}
+.login{
+  margin-top: 15px;
+  margin-left: 75px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  width: 25px;
+}
+.devoluciones{
+
+  margin-top: 15px;
+  margin-left: 120px;
+  cursor: pointer;
+  color: white;
+}
+.cesta{
+  margin-top: 30px;
+  margin-left: 130px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.usuario,
+.devolucion{
+  position: absolute;
+  width: 100px;
+  font-size: 13px;
+}
+.cuenta,
+.pedidos{
+  position: absolute;
+  width: 100px;
+  font-weight: bold;
+  display: inline-block;
+
+}
+.login:hover .desplegar-login{
+  display: flex;
+  margin-top: 40px;
+  color:black;
+  z-index: 2;
+
+}
+.desplegar-login{
+  display: none;
+  background-color: rgb(243, 243, 243);
+  width: 500px;
+  height: 486px;
+  margin-left: -400px;
+  
+}
+.listas{
+  font-weight: bold;
+  margin-left: 40px;
+  font-size: 20px;
+
+}
+.cuenta-display{
+  margin-left: 120px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.lista{
+  
+  color:rgb(68, 68, 68);
+  font-size: 13px;
+}
+
+.header-middle{
+  display: flex;
+  position: relative;
+  height: 39px;
+  background-color: rgb(35, 47, 62);
+  z-index: -1;
+
+}
+
+.todo{
+  margin-left: 23px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 30px;  
+  display: inline-flex;
+  position: relative;
+  margin-right: 3px;
+  border:0;
+}
+.todo-menu{
+  color:white;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.todo:hover,
+.menu:hover{
+  border: 1px white solid;
+
+}
+.hamburger-menu{
+  width: 25px;
+}
+
+.menu{
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 30px;  
+  display: inline-flex;
+  position: relative;
+  padding-left: 7px;
+  padding-right: 7px;
+  border:0;
+}
+.amazon-prime{
+  height: 39px;
+  right: 0px;
+  position: absolute;
+  cursor: pointer;
+}
+.header-bottom{
+  display: flex;
+  position: relative;
+  z-index: -1;
+  height: 39px;
+  background-color: rgb(250, 250, 250);
+  height: 33px;
+}
+.menu-bottom{
+  margin-left: 29px;
+  font-size: 12px;
+  font-weight: 700px;
+  height: 31px;
+  line-height: 33px;
+}

@@ -1,7 +1,11 @@
 .footer{
   display: grid;
   grid-template-columns: 1fr;
-  
+  bottom:0px;
+  left: 0px;
+  right: 0px;
+  position: absolute; 
+  top: 2935.5px;
 }
 .footer-volver{
   position: relative;
@@ -159,4 +163,32 @@
   height: 38px;
 
 
+}
+@media  (max-width:800px){
+  .footer-volver,
+  .footer-middle,
+  .footer-image,
+  .footer-links{
+    width: 734px;
+  }
+  .volver{
+    font-size: 10px;
+  }
+  
+  .conocer,
+  .dinero,
+  .metodo,
+  .ayuda{
+    font-size: 13px;
+  }
+  .texto-footer{
+    font-size: 10px;
+  }
+  .pais,
+  .tittle-link,
+  .parrafo-link,
+  .cookies-text,
+  .afiliados{
+    font-size: 10px;
+  }
 }

@@ -160,3 +160,31 @@
 
 
 }
+@media  (max-width:800px){
+  .footer-volver,
+  .footer-middle,
+  .footer-image,
+  .footer-links{
+    width: 734px;
+  }
+  .volver{
+    font-size: 10px;
+  }
+  
+  .conocer,
+  .dinero,
+  .metodo,
+  .ayuda{
+    font-size: 13px;
+  }
+  .texto-footer{
+    font-size: 10px;
+  }
+  .pais,
+  .tittle-link,
+  .parrafo-link,
+  .cookies-text,
+  .afiliados{
+    font-size: 10px;
+  }
+}

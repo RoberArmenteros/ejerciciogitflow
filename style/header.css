@@ -1,12 +1,16 @@
+
 .header{
   display: grid;
   grid-template-columns: 1fr;
   top:0px;
   left: 0px;
   right: 0px;
+  position: absolute;
+ 
 }
 .header-top{
-  height: 60px;
+  
+  min-height: 60px;
   display: flex;
   flex-direction: row;
   background-color: rgb(19, 25, 33);
@@ -142,6 +146,7 @@
   display: block;
   margin-top: 16px;
   z-index: 2;
+  position: relative;
 
 
 }
@@ -199,6 +204,7 @@
   color:black;
   z-index: 2;
   margin-left: -400px;
+  position: relative;
 
 
 
@@ -299,4 +305,63 @@
   font-weight: 700px;
   height: 31px;
   line-height: 33px;
+}
+
+@media  (max-width:800px){
+  .header-top{
+    flex-direction: row;
+    
+  }
+  .search-bar{
+    width: 100px;
+  }
+  .departamento{
+    width: 30px;
+  }
+  .header-center{
+    width: 100px;
+
+  }
+  .logo{
+    width: 50px;
+  }
+  .localizacion{
+    width: 65px;
+  }
+  .remitente{
+    width: 50px;
+    font-size: 10px;
+    padding-top: 5px;
+  }
+  .direccion{
+    width: 50px;
+    font-size: 10px;
+   
+  }
+  .header-right{
+    margin-left: 60px;
+  }
+  .idioma{
+    margin-left: 10px;
+  }
+  .usuario,
+  .devoluviones{
+    font-size: 10px;
+  }
+  .pedidos,
+  .cuenta{
+    padding-top: 2px;
+    font-size: 11px;
+
+  }
+  .cesta{
+    font-size: 11px;
+
+  }
+  .amazon-prime{
+    display:none  
+  }
+  .todo-menu{
+    font-size: 8px;
+  }
 }

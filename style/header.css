@@ -161,7 +161,7 @@
 .login:hover{
   border: 1px white solid;
   cursor: pointer;
-  
+
 }
 .devoluciones{
 
@@ -205,8 +205,11 @@
   z-index: 2;
   margin-left: -400px;
   position: relative;
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 
 }
 .desplegar-login{
@@ -214,7 +217,7 @@
   background-color: rgb(243, 243, 243);
   width: 500px;
   height: 486px;
-  
+
 }
 .listas{
   font-weight: bold;

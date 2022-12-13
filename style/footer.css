@@ -1,7 +1,11 @@
 .footer{
   display: grid;
   grid-template-columns: 1fr;
-  
+  bottom:0px;
+  left: 0px;
+  right: 0px;
+  position: absolute; 
+  top: 2935.5px;
 }
 .footer-volver{
   position: relative;
